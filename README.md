@@ -65,7 +65,6 @@ The same area is checked again in a later test with a different sentence.
 ```text
 llm-adaptive-learning-protocol/
 ├── README.md
-├── LICENSE
 │
 ├── prompt/
 │   ├── README.md

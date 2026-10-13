@@ -125,6 +125,7 @@ In plain terms:
 
 These states are text maintained by the language model. They are not enforced by program code.
 
+```mermaid
 stateDiagram-v2
 [*] --> ACTIVE
 
@@ -134,7 +135,7 @@ stateDiagram-v2
     STABLE --> REGRESSION: new relevant error
     MAINTENANCE --> REGRESSION: new relevant error
     REGRESSION --> STABILIZATION: correction passed
-
+```
 
 ## Priority when creating the next test
 

@@ -26,6 +26,7 @@ The prompt asks the language model to:
 6. use different examples instead of repeating the same sentences;
 7. keep already known A1/A2 material in occasional review while introducing B1 material.
 
+```mermaid
 flowchart TD
 A[Test N] --> B[User answers]
 B --> C[Correction]
@@ -37,6 +38,7 @@ E --> H[Add new A1-B1 material]
 F --> I[Test N+1]
 G --> I
 H --> I
+```
 
 The current test format contains 14 tasks with a maximum of 266 points.
 
